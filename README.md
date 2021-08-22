@@ -1,4 +1,5 @@
-# Blockchain
+# Remixd
+#### remixd is the ide for solidity contract compilation and deployment.
 
 ## remixd Installation
 #### npm i -g @remix-project/remixd
