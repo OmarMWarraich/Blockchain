@@ -23,6 +23,10 @@ contract Fallback{
         // emit LogInt(msg.value);
     }
     
+    recieve external payable{   //2300 gas
+        // value transactions
+    }
+
     function getBalance() public view returns(uint){
         return address(this).balance;
     }
