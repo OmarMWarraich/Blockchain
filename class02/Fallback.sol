@@ -34,7 +34,9 @@ contract Fallback{
 
 contract CallFallback{
     function doSomething(address payable _to) public payable{
-        _to.transfer(msg.value);
+        _to.transfer(msg.value); //2300
+        // Fallback.transfer
+        // value transaction
     }
 }
 
